@@ -4,7 +4,7 @@ import streamlit as st
 import sklearn
 
 
-df = pd.read_csv(r"D:\course\Data science epsilon (Fanan edition)\projects epsilon\Project 2\solution\df_Clustered.csv")
+df = pd.read_csv("df_Clustered.csv")
 
 def get_recommendations(user , num_of_recom):
     try:
